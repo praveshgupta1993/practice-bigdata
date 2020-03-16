@@ -1,0 +1,9 @@
+conda create -y -n bigdata-lab python=3.5 -y
+conda activate bigdata-lab
+conda install -y pyspark
+conda install -y openjdk
+conda install -y dask
+conda install -y pytest
+conda install -y git
+sudo pacman -S pycharm-community-edition
+pip3 install jupyter jupyter-client jupyter-console jupyter-core
